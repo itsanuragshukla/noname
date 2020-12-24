@@ -1,5 +1,5 @@
 var songs = [
-/*{
+{
 name: "Eastside",
 artist: "Halsey,Khalid",
 song: "https://dl.dropbox.com/s/rmuvxmkdnr5top7/Eastside.mp3",
@@ -450,7 +450,7 @@ name: "8D sound",
 artist: "---",
 song: "https://dl.dropbox.com/s/1q3cylo5h361z3v/AUD-20170726-WA0014.mp3",
 isPlay: false
-}];*/
+}];/*
      {
 name: "Travis scott x drake",
 artist: "travis scott,drake",
@@ -466,4 +466,4 @@ name: "Subeme la radio english",
 artist: "Enrique Iglesias",
 song: "file:///sdcard/shape_of_you_ed_sheeran.mp3",
 isPlay: false
-},];
+},];*/
