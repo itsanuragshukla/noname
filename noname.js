@@ -36,12 +36,14 @@ $("#player").css("transition","0.5s");
 function slideUp(e){
 var slideUp=document.getElementById("player").classList.contains("slideUp");
 if(slideUp==true){
-$(e).css('top',"100vh");
+$(e).css("border-width","0px")
+$(e).css('height',"0vh");
 $(e).toggleClass("slideUp");
 $("#up").css("transform","rotate(0deg)");
 }
 if(slideUp==false){
-$(e).css("top","40vh");
+$(e).css("height","60vh");
+$(e).css("border-width","2px")
 $(e).toggleClass("slideUp");
 $("#up").css("transform","rotate(180deg)");
 }}
@@ -256,8 +258,7 @@ function search() {
     $("#footerplaybtn").html("<path d='M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z'/>")
     
     };
-  let elem=document.documentElement;
-
+/*  let elem=document.documentElement;
   elem.onclick = function() {
   req = elem.requestFullScreen || elem.webkitRequestFullScreen || elem.mozRequestFullScreen;
-  req.call(elem);}
+  req.call(elem);}*/
