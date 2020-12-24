@@ -2,7 +2,7 @@
 margin:0;
 padding:0;}
 body{
-overflow : hidden;
+overflow-X : hidden;
 }
 .nav{
 width:100vw;
@@ -98,15 +98,15 @@ flex-direction:row;
 }
 #player{
 width:99vw;
-height:60vh;
+height:0vh;
 background:#1f2833;
-border:2px solid cyan;
+border:0px solid cyan;
 border-radius:15vh 15vh 0 0;
-position:absolute;
-top:100vh;
+position:fixed;
+bottom:0vh;
 z-index:98;
 display :;
-
+overflow:hidden;
 }
 .slideUp{
 transition:0.5s ;
@@ -489,3 +489,10 @@ width:100%;
 background:#1f2833;
 display:flex;
 flex-direction:column;}
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+html {
+  height: -webkit-fill-available;
+}
